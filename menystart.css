@@ -1,0 +1,89 @@
+body {
+	font-family: 'Cardo', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url('meny2.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat:no-repeat;
+	color: #333;
+    }
+    header {
+	background-color: rgba(51, 51, 51, 0);
+	color: #fff;
+	padding: 5% 5%;
+	text-align: center;
+	font-weight: bolder;
+	top: 10px;
+	.menu-line {
+		border: none;
+		border-top: 7px solid #fff; /* Tjockt rakt streck längst ner */
+		width: 12%; /* Justera bredden på linjen efter behov */
+		margin: 3% auto /* Justera avståndet mellan linjen och menyn */
+	}
+	.button-container {
+		position: absolute;
+		top: 0; /* Justera höjden efter behov */
+		margin-left: 39%; /* Justera sidomarginalen efter behov */
+	}
+	.button {
+		text-decoration: none;
+		color: #333;
+		font-weight: bold;
+		background-color: #fff;
+		padding: 20% 90%; /* Justera storleken på knappen efter behov */
+		display: inline-block; /* Visa knappen som en block-element */
+		border: 5% solid #333;
+		border-radius: 80px;
+	}
+    }
+    .top-left {
+	font-size: 250%;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; /* Justera toppositionen */
+	left: 5%; /* Justera vänsterpositionen */
+	color: #fff;
+    }
+    .top-right {
+	font-size: 170%;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; /* Justera toppositionen */
+	right: 5%; /* Justera högerpositionen */
+	color: #fff;
+    }
+    nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding: 1% 10%;
+	text-align: center;
+    }
+    nav:not(:last-child) {
+	margin-right: 20%; /* Justera glipan mellan nav-elementen genom att lägga till en margin till höger */
+	margin-left: 20%;
+    }
+    .button-container {
+	flex-basis: 38%; /* Justera bredden av rektanglarna för att passa två per rad */
+	margin-bottom: 20px;
+    }
+    .button {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 10% 10%;
+	display: block;
+	border: 3px solid #333;
+	border-radius: 80px;
+    }
+    main {
+	padding: 20px;
+    }
+    section {
+	margin-bottom: 20px;
+    }
+   
+   
+    
